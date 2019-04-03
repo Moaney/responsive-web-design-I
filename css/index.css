@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5 {
     color: gray;
 }
 
+.img {
+    margin: 30px;
+}
+
 .cta {
     margin-top: 30px;
     display: flex;
@@ -150,6 +154,46 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 800px) {
+.container {
+    width: 100%;
+    background-color: palevioletred;
+    justify-content: center;
+}
+}
+
+@media (max-width: 800px) {
+    .container header {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+.cta img {
+    display: none;
+}
+}
+
+@media (max-width: 800px) {
+    .cta-text {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 800px) {
+  .main-content .top-content {
+      justify-content: center;
+      width: 95%;
+  }
+}
+
 
 
 
