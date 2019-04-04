@@ -159,7 +159,6 @@ footer {
 @media (max-width: 800px) {
 .container {
     width: 98%;
-    background-color: palevioletred;
     justify-content: center;
 }
 }
@@ -205,14 +204,12 @@ footer {
     .bottom-content {
         justify-content: center;
         width: 95%;
-        background-color: crimson;
     }
 }
 
 @media (max-width: 500px) {
     .container {
         width: 80%;
-        background-color: darkorchid;
     }
 }
 
@@ -231,7 +228,7 @@ footer {
     .container nav a {
         display: flex;
         flex-direction: column;
-
+        border-bottom: 1px solid gray;
     }
 }
 
